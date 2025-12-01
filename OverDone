@@ -13,7 +13,7 @@ local var2 = game:GetService("Players")
     -- false
     local var10 = (4388452137 == var5)
     -- false
-    local var11 = (5751248883 == var5)
+    local var11 = (7838546030 == var5)
     -- false
     local var12 = (9453939775 == var5)
     -- false
