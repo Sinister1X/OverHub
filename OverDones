@@ -128,7 +128,6 @@ for i, v in ipairs(var33) do
     if i then
         if not i then
         else
-            local var36 = task.spawn(MBVfdqCTlpliKHJVxXlHpixbfuaeCsye, v)
         end
     end
 end
