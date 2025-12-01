@@ -51,8 +51,15 @@ local var2 = game:GetService("Players")
     -- false
     local var29 = (3017632349 == var5)
     -- false
-    local var30 = var3.Kick
-    local var31 = var3:Kick("You are not whitelisted, Purchase at Discord.gg/OverseasHub.")
+local var30 = (5751248883 == var5) 
+
+if not (
+    var6 or var7 or var8 or var9 or var10 or var11 or var12 or var13 or var14 or var15 or
+    var16 or var17 or var18 or var19 or var20 or var21 or var22 or var23 or var24 or var25 or
+    var26 or var27 or var28 or var29 or var30
+) then
+    var3:Kick("You are not whitelisted, Purchase at Discord.gg/OverseasHub.")
+end
 local var32 = var2.PlayerAdded:Connect(function(p1, p2, p3, p4)
 local var1 = (table and 618714)
 local var2 = game:GetService("Players")
