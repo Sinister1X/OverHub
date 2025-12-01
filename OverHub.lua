@@ -1,8 +1,6 @@
-local var1 = (table and 618714)
-local var2 = game:GetService("Players")
-    local var3 = p1[1]
-    local var4 = var3.UserId
-    local var5 = var4[1]
+local var3 = p1              -- p1 is already the Player
+local var4 = var3.UserId     -- UserId is a number
+local var5 = var4            -- just use the number directly
     local var6 = (1449270258 == var5)
     -- false
     local var7 = (1892655808 == var5)
@@ -63,9 +61,9 @@ end
 local var32 = var2.PlayerAdded:Connect(function(p1, p2, p3, p4)
 local var1 = (table and 618714)
 local var2 = game:GetService("Players")
-    local var3 = p1[1]
-    local var4 = var3.UserId
-    local var5 = var4[1]
+local var3 = p1              -- FIXED
+local var4 = var3.UserId     -- FIXED
+local var5 = var4            -- FIXED
     local var6 = (1449270258 == var5)
     -- false
     local var7 = (1892655808 == var5)
